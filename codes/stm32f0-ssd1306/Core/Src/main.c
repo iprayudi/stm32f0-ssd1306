@@ -94,9 +94,6 @@ int main(void)
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
 
-  ssd1306_Fill(Black);
-  ssd1306_UpdateScreen();
-
   ssd1306_TestAll();
 
 //  ssd1306_SetCursor(2, 5);
